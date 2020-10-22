@@ -1,0 +1,70 @@
+body {
+    background: greenyellow;
+    margin: auto;
+}
+.header-container {
+    background: greenyellow;
+    height: 200px;
+    display: flex;
+}
+.gaia-header{
+    background: greenyellow;
+    height: 100%;
+    width: 35%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.gaia-header > h1 {
+    color: white;
+    padding-bottom: 10%;
+}
+.nav-container {
+    background: greenyellow;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+}
+.nav-bar-container{
+    width: 100%;
+    background: greenyellow;
+    display: flex;
+    padding-bottom: 5%;
+}
+.nav-bar-container > ul {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.nav-bar-container a {
+    text-decoration: none;
+    list-style: none;
+    color: white
+}
+.inventory-image-container {
+    background: yellow;
+    height: 400px;
+    margin-top: 3%;
+}
+.carousel {
+    height: inherit;
+}
+
+img.d-block.w-100 {
+    height: -webkit-fill-available;
+}
+#recipes.recipes-container {
+    height: 100%;
+}
+.recipes-container {
+    background: greenyellow;
+    height: 700px;
+    margin-top: 3%;
+}
+
+.about-us-container {
+    background: greenyellow;
+    height: 700px;
+    margin-top: 3%;
+}
